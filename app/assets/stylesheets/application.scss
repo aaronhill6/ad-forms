@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
-body {
-  background: gray;
-}
+@import "select2";
+@import "colors";
+@import "fonts";
+@import "forms";
+@import "bom_form";

@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@mixin font-open-sans($weight: 'normal') {
+  font-family: 'Open Sans', 'sans-serif';
+  @if $weight == 'bold' {
+    font-weight: 700;
+  } @elseif $weight == 'light' {
+    font-weight: 300;
+  } @else {
+    font-weight: 400;
+  }
+}
